@@ -1,9 +1,10 @@
+import Nav from "./components/Nav"
 
 const App = () => {
   return (
-    <div>
-      hello
-    </div>
+    <>
+    <Nav />
+    </>
   )
 }
 
