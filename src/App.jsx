@@ -1,9 +1,9 @@
-import Nav from "./components/Nav"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
     <>
-    <Nav />
+    <Navbar />
     </>
   )
 }
