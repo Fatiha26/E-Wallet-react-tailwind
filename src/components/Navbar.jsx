@@ -10,7 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className='flex items-center justify-between py-3 bg-yellow-500 px-8'>
+      <nav className='flex items-center justify-between py-0 bg-yellow-500 px-8'>
         <div className='flex justify-between z-50 p-5 md:w-auto w-full'>
           <img src={logo} alt="logo" className='w-10' />
           <div className='text-3xl md:hidden' onClick={() => setOpen(!open)}>
