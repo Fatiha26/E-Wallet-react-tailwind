@@ -17,8 +17,23 @@ const Navbar = () => {
               </Link>
             </li>   
             <NavLinks />
-            <Button />     
-      </ul>      
+      </ul> 
+      <div className='md:block hidden'>
+        <Button />         
+      </div>
+
+      {/* mobile nav */}
+      <ul className='md:hidden bg-white absolute w-full h-full bottom-0 py-25 pl-4'>
+            <li>
+              <Link to="/" className='py-2 px-6 text-md border-2 border-transparent hover:border-white transition delay-150 mr-4 border-dotted rounded-3xl'>
+                services
+              </Link>
+            </li>   
+            <NavLinks />
+            <div className='py-5'>
+             <Button />         
+            </div>
+      </ul> 
     </nav>
     </>
   )
