@@ -12,9 +12,9 @@ const Navbar = () => {
     <nav className='flex items-center justify-between py-3 bg-yellow-500 px-8'>
       <div className='flex justify-between z-50 p-5 md:w-auto w-full'>
         <img src={logo} alt="logo" className='w-10' />
-        <div className='text-3xl' onClick={()=>
+        <div className='text-3xl md:hidden' onClick={()=>
               setOpen(!open)}>
-           name={`${open? <HiXMark /> : <IoIosMenu/>}`} 
+           {`${open? <HiXMark /> : <IoIosMenu/>}`} 
         </div>
       </div>
       <ul className='md:flex hidden justify-evenly capitalize'>
