@@ -1,6 +1,18 @@
 
 const NavLinks = () => {
-    const links = [{name:"About"},
+    const links = [{name:"About",
+                    submenu:true,
+                    sublinks:[
+                        {
+                            sublink: [
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                            ]
+                        }
+                    ]
+    },
                    {name: "Business"},
                    {name: "Help"},
                    {name: "Career"},
@@ -16,6 +28,7 @@ const NavLinks = () => {
                     <h1 className="py-7 ">
                         {link.name}
                     </h1>
+                    
                 </div>
             </div>
         ))}
