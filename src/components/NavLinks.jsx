@@ -10,8 +10,24 @@ const NavLinks = () => {
                                 {name:'one', link:"/"},
                                 {name:'one', link:"/"},
                                 {name:'one', link:"/"},
-                            ]
-                        }
+                            ],
+                        },
+                        {
+                            sublink: [
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                            ],
+                        },
+                        {
+                            sublink: [
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                                {name:'one', link:"/"},
+                            ],
+                        },
                     ]
     },
                    {name: "Business"},
@@ -35,7 +51,7 @@ const NavLinks = () => {
                              <div className="py-3">
                               <div className="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45"></div>
                              </div>
-                                <div className="bg-white p-3.5">
+                                <div className="bg-white p-3.5 grid grid-cols-3 gap-10">
                                     {
                                         link.sublinks.map((mySub,index)=>(
                                             <div key={index}>
