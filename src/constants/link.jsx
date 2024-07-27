@@ -1,3 +1,5 @@
+import img1 from '../assets/image/img1.png'
+
 export const links = [
     {
       name: "Services",
@@ -5,7 +7,7 @@ export const links = [
       sublinks: [
         {
           sublink: [
-            { name: 'Send Money', link: "/" },
+            { name: 'Send Money', link: "/", img:img1},
             { name: 'Cashout', link: "/" },
             { name: 'Payment', link: "/" },
             { name: 'Add Money', link: "/" },
