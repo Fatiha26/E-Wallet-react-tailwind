@@ -11,26 +11,24 @@ const NavLinks = () => {
       sublinks: [
         {
           sublink: [
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
+            { name: 'Send Money', link: "/" },
+            { name: 'Cashout', link: "/" },
+            { name: 'Payment', link: "/" },
+            { name: 'Add Money', link: "/" },
           ],
         },
         {
           sublink: [
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
+            { name: 'Mobile Recharge', link: "/" },
+            { name: 'Education Fees', link: "/" },
+            { name: 'Pay Bill', link: "/" },
+            { name: 'Loan', link: "/" },
           ],
         },
         {
           sublink: [
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
-            { name: 'one', link: "/" },
+            { name: 'Savings', link: "/" },
+            { name: 'Request Money', link: "/" },
           ],
         },
       ],
