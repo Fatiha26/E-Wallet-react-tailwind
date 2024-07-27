@@ -1,45 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { links } from "../constants/link";
+
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
-
-  const links = [
-    {
-      name: "Services",
-      submenu: true,
-      sublinks: [
-        {
-          sublink: [
-            { name: 'Send Money', link: "/" },
-            { name: 'Cashout', link: "/" },
-            { name: 'Payment', link: "/" },
-            { name: 'Add Money', link: "/" },
-          ],
-        },
-        {
-          sublink: [
-            { name: 'Mobile Recharge', link: "/" },
-            { name: 'Education Fees', link: "/" },
-            { name: 'Pay Bill', link: "/" },
-            { name: 'Loan', link: "/" },
-          ],
-        },
-        {
-          sublink: [
-            { name: 'Savings', link: "/" },
-            { name: 'Request Money', link: "/" },
-          ],
-        },
-      ],
-    },
-    { name: "Business" },
-    { name: "Help" },
-    { name: "Career" },
-    { name: "Blog" },
-    { name: "Campaigns" },
-  ];
-
   return (
     <>
       {links.map((link, index) => (
