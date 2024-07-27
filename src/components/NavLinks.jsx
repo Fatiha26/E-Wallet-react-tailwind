@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div key={index}>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
-              className="py-2 px-6 border-transparent hover:border-white border-dotted border-[0.1rem] rounded-3xl"
+              className="py-2 px-6 border-transparent text-green-500 hover:border-orange-400 border-dotted border-[0.1rem] rounded-3xl"
               onClick={() =>
                 heading !== link.name ? setHeading(link.name) : setHeading("")
               }
@@ -25,7 +25,7 @@ const NavLinks = () => {
                     {link.sublinks.map((mySub, subIndex) => (
                       <div key={subIndex}>
                         {mySub.sublink.map((slink, sublinkIndex) => (
-                          <li key={sublinkIndex} className="text-lg text-black my-2.5 flex items-center mb-8">
+                          <li key={sublinkIndex} className="text-lg text-green-500 my-2.5 flex items-center mb-8">
                             <img src={slink.img} alt="" className="w-9 mr-4"/>
                             <Link to={slink.link}>{slink.name}</Link>
                           </li>
@@ -46,7 +46,7 @@ const NavLinks = () => {
               link.sublinks.map((sublink, subIndex) => (
                 <div key={subIndex}>
                   {sublink.sublink.map((slink, sublinkIndex) => (
-                    <li key={sublinkIndex} className="text-lg text-black my-2.5 flex items-center mb-4 pl-16 ">
+                    <li key={sublinkIndex} className="text-lg text-green-500 my-2.5 flex items-center mb-4 pl-16 ">
                             <img src={slink.img} alt="" className="w-7 mr-3"/>
                             <Link to={slink.link}>{slink.name}</Link>
                           </li>
