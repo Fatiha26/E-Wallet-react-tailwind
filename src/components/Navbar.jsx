@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import logo from '../assets/image/logo1.png';
 import NavLinks from './NavLinks';
 import Button from './Button';
@@ -26,11 +25,7 @@ const Navbar = () => {
 
         {/* mobile nav */}
         <ul className={`md:hidden bg-white absolute w-full h-full bottom-0 py-25 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}>
-          <li>
-            <Link to="/" className='py-2 px-6 text-md border-2 border-transparent hover:border-white transition delay-150 mr-4 border-dotted rounded-3xl'>
-              services
-            </Link>
-          </li>   
+           
           <NavLinks />
           <div className='py-5'>
             <Button />         

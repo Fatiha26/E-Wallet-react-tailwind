@@ -57,7 +57,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-14  hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-14 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div className="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45"></div>
                   </div>
@@ -82,15 +82,11 @@ const NavLinks = () => {
             {link.submenu &&
               link.sublinks.map((sublink, subIndex) => (
                 <div key={subIndex}>
-                  <div>
-                    <div>
-                      {sublink.sublink.map((slink, sublinkIndex) => (
-                        <li key={sublinkIndex} className="py-3">
-                          <Link to={slink.link}>{slink.name}</Link>
-                        </li>
-                      ))}
-                    </div>
-                  </div>
+                  {sublink.sublink.map((slink, sublinkIndex) => (
+                    <li key={sublinkIndex} className="py-3 pl-4">
+                      <Link to={slink.link}>{slink.name}</Link>
+                    </li>
+                  ))}
                 </div>
               ))}
           </div>
