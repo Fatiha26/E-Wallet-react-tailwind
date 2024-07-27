@@ -1,4 +1,4 @@
-import logo from '../assets/image/logo1.png';
+import logo from '../assets/image/logo.png';
 import NavLinks from './NavLinks';
 import Button from './Button';
 import { IoIosMenu } from "react-icons/io";
@@ -9,9 +9,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className='flex items-center justify-between py-0 bg-yellow-500 px-8'>
+      <nav className='flex items-center justify-between py-0 px-8'>
         <div className='flex justify-between z-50 p-5 md:w-auto w-full'>
-          <img src={logo} alt="logo" className='w-10' />
+        <div className='flex items-center gap-1'>
+        <img src={logo} alt="logo" className='w-10' /> 
+        <span className='text-xl font-[cursive] font-semibold text-green-500'>e-wallet</span>
+        </div>
           <div className='text-3xl md:hidden' onClick={() => setOpen(!open)}>
             {open ? <HiXMark /> : <IoIosMenu />}
           </div>

@@ -46,8 +46,8 @@ const NavLinks = () => {
               link.sublinks.map((sublink, subIndex) => (
                 <div key={subIndex}>
                   {sublink.sublink.map((slink, sublinkIndex) => (
-                    <li key={sublinkIndex} className="text-lg text-black my-2.5 flex items-center mb-8">
-                            <img src={slink.img} alt="" className="w-9 mr-4"/>
+                    <li key={sublinkIndex} className="text-lg text-black my-2.5 flex items-center mb-4 pl-16 ">
+                            <img src={slink.img} alt="" className="w-7 mr-3"/>
                             <Link to={slink.link}>{slink.name}</Link>
                           </li>
                   ))}
