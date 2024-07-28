@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div key={index}>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
-              className="py-2 px-6 border-transparent font-semibold text-md text-green-600 hover:border-orange-400 border-dotted border-[0.1rem] rounded-3xl"
+              className="py-2 px-6 border-transparent font-semibold text-md text-purple-700 hover:border-orange-400 border-dotted border-[0.1rem] rounded-3xl"
               onClick={() =>
                 heading !== link.name ? setHeading(link.name) : setHeading("")
               }
