@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='flex justify-between z-50 p-5 md:w-auto w-full'>
         <div className='flex items-center gap-1'>
         <img src={logo} alt="logo" className='w-10' /> 
-        <span className='text-xl font-[cursive] font-semibold text-green-500'>e-wallet</span>
+        <span className='text-xl font-[cursive] font-semibold text-purple-700'>e-wallet</span>
         </div>
           <div className='text-3xl md:hidden' onClick={() => setOpen(!open)}>
             {open ? <HiXMark /> : <IoIosMenu />}
