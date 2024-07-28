@@ -13,7 +13,7 @@ const banner = () => {
 
        </div>
        <div>
-          <img src={hero} alt="" className='w-10/12 ml-20'/>
+          <img src={hero} alt="" className='md:w-10/12 md:ml-20'/>
        </div>
     </div>
   )
