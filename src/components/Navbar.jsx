@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className='flex items-center shadow-md justify-between py-0 px-8'>
+      <nav className='md:fixed top-0 left-0 z-10 flex items-center shadow-md justify-between py-0 px-8'>
         <div className='flex justify-between z-50 p-5 md:w-auto w-full'>
         <div className='flex items-center gap-1'>
         <img src={logo} alt="logo" className='w-10' /> 
