@@ -12,10 +12,10 @@ const Banner = () => {
         </p>
         
         <div className='mt-6'>
-          <button className='py-2 px-6 rounded-3xl text-md border text-purple-700 border-white font-bold shadow-md shadow-gray-500 mr-4'>
+          <button className='hover:text-black py-2 px-6 rounded-3xl text-md border text-purple-700 border-white font-bold shadow-md shadow-gray-500 mr-4'>
             Get Started
           </button>
-          <button className='py-2 px-6 rounded-3xl text-md border text-purple-700 border-white font-bold shadow-md shadow-gray-500 mt-4 md:mt-0'>
+          <button className='hover:text-black py-2 px-6 rounded-3xl text-md border text-purple-700 border-white font-bold shadow-md shadow-gray-500 mt-4 md:mt-0'>
             Download App
           </button>
         </div>
