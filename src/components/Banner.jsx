@@ -1,4 +1,4 @@
-import hero from '../assets/image/5r.png'
+import hero from '../assets/image/banner.jpg'
 const banner = () => {
   return (
     <div className='grid md:grid-cols-2 mx-20 my-20 gap-9 items-center'>
@@ -13,7 +13,7 @@ const banner = () => {
 
        </div>
        <div>
-          <img src={hero} alt="" />
+          <img src={hero} alt="" className='w-10/12 ml-20'/>
        </div>
     </div>
   )
