@@ -12,7 +12,7 @@ import img9 from '../assets/image/img9.png'
 
 export const links = [
     {
-      name: "Services",
+      name: "Services \u25BE",
       submenu: true,
       sublinks: [
         {
