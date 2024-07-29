@@ -19,7 +19,7 @@ export const platforms = [
     {
         img: img3,
         heading:"Send Money",
-        text: "Send money from e-wallet to any number",
+        text: "Send money from e-wallet to any number and get cashbacks",
         btn: "Learn More",
     },
     {
