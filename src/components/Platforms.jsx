@@ -1,9 +1,8 @@
-import React from 'react'
 import { platforms } from '../constants/data'
 const Platforms = () => {
   return (
     <div>
-       <h1></h1>
+       <h1 className='text-center text-5xl font-semibold'>One Platform for all Financial Solutions</h1>
        <div>
           {platforms.map((item,index)=>(
             <div key={index}>
