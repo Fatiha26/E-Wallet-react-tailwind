@@ -1,4 +1,5 @@
 import { platforms } from '../constants/data'
+import LearnMore from './LearnMore'
 const Platforms = () => {
   return (
     <div className='my-12 bg-purple-50 py-12'>
@@ -15,6 +16,7 @@ const Platforms = () => {
           </div>
           ))}
        </div>
+       <LearnMore />
     </div>
   )
 }
