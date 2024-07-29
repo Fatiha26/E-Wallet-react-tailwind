@@ -64,5 +64,21 @@ export const learn = [
         limg:learn5,
         ltext: "Mobile Recharge"
      },
+     {
+        limg:learn6,
+        ltext: "Education Fees"
+     },
+     {
+        limg:learn7,
+        ltext: "Pay bill"
+     },
+     {
+        limg:learn8,
+        ltext: "Loan"
+     },
+     {
+        limg:learn9,
+        ltext: "Request Money"
+     },
             
   ];
