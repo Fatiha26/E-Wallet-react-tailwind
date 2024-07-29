@@ -10,12 +10,16 @@ const LearnMore = () => {
             <h2 className='text-2xl font-bold'>Learn More about e-wallet Services</h2>
             <div className='w-96 h-[2px] bg-slate-300'></div>
         </div>
-       {learn.map((item,index)=>(
-        <div key={index} className='flex items-center gap-12'>
-            <img src={item.limg} alt="img" />
-            <p>{item.ltext}</p>
+      <div className='flex items-center gap-24 mt-20'>
+      {learn.map((item,index)=>(
+        <div key={index} >
+            <div className='flex items-center flex-col'>
+               <img src={item.limg} alt="img" className='w-16'/>
+               <p>{item.ltext} </p>
+            </div>
         </div>
        ))}
+      </div>
       </div>
       
     </>
