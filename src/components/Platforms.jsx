@@ -1,16 +1,18 @@
 import React from 'react'
-
+import { platforms } from '../constants/data'
 const Platforms = () => {
   return (
     <div>
        <h1></h1>
        <div>
-          <div>
-             <img src="" alt="" />
-             <h3></h3>
-             <p></p>
-             <a href="#"></a>
+          {platforms.map((item,index)=>(
+            <div key={index}>
+             <img src={item.img} alt="" />
+             <h3>{item.heading}</h3>
+             <p>{item.text}</p>
+             <a href="#">{item.btn}</a>
           </div>
+          ))}
        </div>
     </div>
   )
