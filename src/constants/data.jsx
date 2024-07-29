@@ -45,21 +45,24 @@ export const platforms = [
 
 export const learn = [
     {
-       img:learn1,
-       text: "Send Money"
+       limg:learn1,
+       ltext: "Send Money"
     },
     {
-        img:learn2,
-        text: "Cashout"
-     },{
-        img:learn3,
-        text: "Payment"
-     },{
-        img:learn4,
-        text: "Add Money"
-     },{
-        img:learn5,
-        text: "Mobile Recharge"
+        limg:learn2,
+        ltext: "Cashout"
+     },
+     {
+        limg:learn3,
+        ltext: "Payment"
+     },
+     {
+        limg:learn4,
+        ltext: "Add Money"
+     },
+     {
+        limg:learn5,
+        ltext: "Mobile Recharge"
      },
             
   ];
