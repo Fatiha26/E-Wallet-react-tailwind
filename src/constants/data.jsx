@@ -43,23 +43,23 @@ export const platforms = [
 
 
 
-export const links = [
+export const learn = [
     {
        img:learn1,
        text: "Send Money"
     },
     {
         img:learn2,
-        text: "Send Money"
+        text: "Cashout"
      },{
         img:learn3,
-        text: "Send Money"
+        text: "Payment"
      },{
         img:learn4,
-        text: "Send Money"
+        text: "Add Money"
      },{
         img:learn5,
-        text: "Send Money"
+        text: "Mobile Recharge"
      },
             
   ];
