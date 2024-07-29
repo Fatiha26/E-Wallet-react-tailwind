@@ -2,6 +2,15 @@ import img1 from '../assets/image/3.png'
 import img2 from '../assets/image/2.png'
 import img3 from '../assets/image/1.png'
 import img4 from '../assets/image/4.png'
+import learn1 from '../assets/image/img1.png'
+import learn2 from '../assets/image/img2.png'
+import learn3 from '../assets/image/img3.png'
+import learn4 from '../assets/image/img4.png'
+import learn5 from '../assets/image/img5.png'
+import learn6 from '../assets/image/img6.png'
+import learn7 from '../assets/image/img7.png'
+import learn8 from '../assets/image/img8.png'
+import learn9 from '../assets/image/img9.png'
 
 export const platforms = [
     {
@@ -29,3 +38,28 @@ export const platforms = [
         btn: "Learn More",
     },
 ]
+
+
+
+
+
+export const links = [
+    {
+       img:learn1,
+       text: "Send Money"
+    },
+    {
+        img:learn2,
+        text: "Send Money"
+     },{
+        img:learn3,
+        text: "Send Money"
+     },{
+        img:learn4,
+        text: "Send Money"
+     },{
+        img:learn5,
+        text: "Send Money"
+     },
+            
+  ];
