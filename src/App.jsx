@@ -2,6 +2,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner'
 import Platforms from './components/Platforms';
+import Download from './components/Download';
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
     </Router>
     <Banner />
     <Platforms />
+    <Download />
     </>
 
   );
