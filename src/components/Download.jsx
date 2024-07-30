@@ -1,4 +1,6 @@
 import bgImg from '../assets/image/bg.png'
+import app from '../assets/image/mock.png'
+
 const Download = () => {
   return (
     <>
@@ -9,6 +11,17 @@ const Download = () => {
         backgroundRepeat: 'no-repeat',
         height: '100vh' 
       }}>
+
+        <div>
+           <h3></h3>
+           <p></p>
+           <div>
+             
+           </div>
+        </div>
+        <div>
+           <img src={app} alt="app" />
+        </div>
      </div>
       
     </>
