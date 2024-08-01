@@ -2,7 +2,7 @@
 const Business = () => {
   return (
     <>
-     <div>
+     <div className="py-16">
      <h1 className='text-center text-3xl md:text-5xl font-semibold'>e-wallet for Business</h1>
      <p></p>
         <div>
