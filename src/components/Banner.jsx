@@ -8,7 +8,7 @@ const Banner = () => {
           Get started with <span className='md:text-5xl text-3xl text-purple-700 font-bold'>ewallet</span> &
         </h1>
         <p className='md:text-lg text-sm text-justify mt-4'>
-          Enjoy the convenience of managing your money anytime, anywhere. Pay bills, recharge, and shop online—all with a few taps.
+          Enjoy the convenience of managing your money anytime, anywhere. Pay bills, recharge, and shop online — all with a few taps.
         </p>
         
         <div className='mt-6'>
