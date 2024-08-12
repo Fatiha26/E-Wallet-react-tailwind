@@ -5,7 +5,7 @@ const Banner = () => {
     <div className='grid md:grid-cols-2 mx-20 my-20 gap-9 items-center'>
       <div>
         <h1 className='md:text-4xl text-2xl'>
-          Get started with <span className='md:text-5xl text-3xl text-purple-700 font-bold'>e-wallet</span> &
+          Get started with <span className='md:text-5xl text-3xl text-purple-700 font-bold'>ewallet</span> &
         </h1>
         <p className='md:text-lg text-sm text-justify mt-4'>
           Enjoy the convenience of managing your money anytime, anywhere. Pay bills, recharge, and shop online—all with a few taps.
