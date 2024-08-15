@@ -4,9 +4,9 @@ const LearnMore = () => {
   return (
     <>
       <div className='px-10 my-16'>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-4 ml-8'>
             <div className='w-96 h-[2px] bg-slate-300'></div>
-            <h2 className='text-2xl font-bold'>Learn More about e-wallet Services</h2>
+            <h2 className='text-xl font-bold'>Learn More about ewallet Services</h2>
             <div className='w-96 h-[2px] bg-slate-300'></div>
         </div>
       <div className='flex items-center gap-12 mt-20 w-full'>
