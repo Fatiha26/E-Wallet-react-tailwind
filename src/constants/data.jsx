@@ -91,9 +91,23 @@ export const learn = [
 export const news = [
    {
       img: new1,
-      heading: ,
-      text: ,
-      line: ,
-      read: ,
-   }
+      heading: "eWallet, Country’s Best & Most Loved Brand for 5th consecutive year",
+      text: "Posted on 27 December 2023",
+      line: "|",
+      read: "15mins read",
+   },
+   {
+      img: new2,
+      heading: "Fintech Pioneer Award’ from Prime Minister",
+      text: "Posted on 02 January 2024",
+      line: "|",
+      read: "27mins read",
+   },
+   {
+      img: new3,
+      heading: "eWallet CEO on the Transformative Impact of Financial Inclusion",
+      text: "Posted on 24 August 2024",
+      line: "|",
+      read: "10mins read",
+   },
 ]
