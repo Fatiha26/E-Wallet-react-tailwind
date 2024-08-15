@@ -21,8 +21,16 @@ const Business = () => {
                      <p>Online business</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                   <MdWork className="text-purple-500 text-[8rem]"/>
-                   <p>Merchent</p>
+                     <MdWork className="text-purple-500 text-[8rem]"/>
+                     <p>Merchent</p>
+                   </div>
+                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                   </div>
+                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                   </div>
+                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                   </div>
+                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
                    </div>
 
                   <FaHouseChimney className="text-purple-500 text-[8rem]"/>
