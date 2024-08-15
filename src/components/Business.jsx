@@ -16,7 +16,10 @@ const Business = () => {
      </p>
         <div className="flex items-center justify-between pt-32">
             <div className="grid grid-cols-3 gap-8 items-center">
-                  <FaCartArrowDown className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
+                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                     <FaCartArrowDown className="text-purple-500 text-[8rem]"/>
+                     <p>Online business</p>
+                   </div>
                   <MdWork className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
                   <FaHouseChimney className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
                   <GiFamilyHouse className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
