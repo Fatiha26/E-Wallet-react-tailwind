@@ -33,11 +33,12 @@ const Business = () => {
                       <p>Enterprise</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                       <FaPrayingHands className="text-purple-500 text-[8rem]"/>
+                       <p>Microfinance</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
                    </div>
 
-                  <FaPrayingHands className="text-purple-500 text-[8rem]"/>
                   <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
             </div>
             <div className="absolute right-8">
