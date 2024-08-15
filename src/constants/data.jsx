@@ -12,6 +12,11 @@ import learn7 from '../assets/image/img7.png'
 import learn8 from '../assets/image/img8.png'
 import learn9 from '../assets/image/img9.png'
 
+import new1 from '../assets/image/new1.jpg'
+import new2 from '../assets/image/new2.jpg'
+import new3 from '../assets/image/new3.jpg'
+
+
 export const platforms = [
     {
         img: img1,
@@ -82,3 +87,13 @@ export const learn = [
      },
             
   ];
+
+export const news = [
+   {
+      img: new1,
+      heading: ,
+      text: ,
+      line: ,
+      read: ,
+   }
+]
