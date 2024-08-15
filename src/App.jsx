@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import Platforms from './components/Platforms';
 import Download from './components/Download';
 import Business from './components/Business';
+import New from './components/New';
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
     <Platforms />
     <Download />
     <Business />
+    <New />
     </>
 
   );
