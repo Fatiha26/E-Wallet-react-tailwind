@@ -29,13 +29,14 @@ const Business = () => {
                       <p>Educational Institutions</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                      <GiFamilyHouse className="text-purple-500 text-[8rem]"/>
+                      <p>Enterprise</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
                    </div>
 
-                  <GiFamilyHouse className="text-purple-500 text-[8rem]"/>
                   <FaPrayingHands className="text-purple-500 text-[8rem]"/>
                   <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
             </div>
