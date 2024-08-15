@@ -41,7 +41,7 @@ const Business = () => {
                    </div>
 
             </div>
-            <div className="absolute right-0">
+            <div className="absolute right-4">
                <img src={bg2} alt="" className="w-[30rem] h-[30rem]"/>
             </div>
         </div>
