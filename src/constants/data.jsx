@@ -98,7 +98,7 @@ export const news = [
    },
    {
       img: new2,
-      heading: "Fintech Pioneer Award’ from Prime Minister",
+      heading: "Fintech Pioneer Award from Prime Minister",
       text: "Posted on 02 January 2024",
       line: "|",
       read: "27mins read",

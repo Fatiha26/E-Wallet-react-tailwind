@@ -1,3 +1,4 @@
+import { news } from "../constants/data"
 
 const New = () => {
   return (
@@ -7,6 +8,19 @@ const New = () => {
         What&apos;s New in
         <span className="text-purple-700"> eWallet</span>
       </h1>
+      <div>
+        {
+            news.map((item,index)=>(
+              <div key={index}>
+                 <img src={item.img} alt="news img" />
+                 <h3>{item.heading}</h3>
+                 <p>{item.text}</p>
+                 <p>{item.line}</p>
+                 <p>{item.read}</p>
+              </div>
+            ))
+        }
+      </div>
 
      </section>
 
