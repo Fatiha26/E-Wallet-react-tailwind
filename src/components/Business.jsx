@@ -20,11 +20,15 @@ const Business = () => {
                      <FaCartArrowDown className="text-purple-500 text-[8rem]"/>
                      <p>Online business</p>
                    </div>
-                  <MdWork className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
-                  <FaHouseChimney className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
-                  <GiFamilyHouse className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
-                  <FaPrayingHands className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
-                  <IoIosArrowForward className="text-purple-500 text-[8rem] shadow shadow-slate-400 p-8 cursor-pointer"/>
+                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                   <MdWork className="text-purple-500 text-[8rem]"/>
+                   <p>Online business</p>
+                   </div>
+
+                  <FaHouseChimney className="text-purple-500 text-[8rem]"/>
+                  <GiFamilyHouse className="text-purple-500 text-[8rem]"/>
+                  <FaPrayingHands className="text-purple-500 text-[8rem]"/>
+                  <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
             </div>
             <div className="absolute right-8">
                <img src={bg2} alt="" className="w-[600px]"/>
