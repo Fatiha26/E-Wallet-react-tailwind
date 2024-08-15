@@ -15,34 +15,34 @@ const Business = () => {
         transactions for your business. Make your day-to-day operations more efficient with e-wallet.
      </p>
         <div className="flex items-center justify-between pt-32">
-            <div className="grid grid-cols-3 gap-8 items-center">
-                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                     <FaCartArrowDown className="text-purple-500 text-[8rem]"/>
-                     <p>Online business</p>
+            <div className="grid grid-cols-3 gap-4 items-center">
+                   <div className="shadow shadow-slate-400 p-4 cursor-pointer text-center">
+                     <FaCartArrowDown className="text-purple-500 text-[6rem] ml-8"/>
+                     <p className="hover:text-purple-700 cursor-pointer">Online business</p>
                    </div>
-                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                     <MdWork className="text-purple-500 text-[8rem]"/>
-                     <p>Merchent</p>
+                   <div className="shadow shadow-slate-400 p-4 cursor-pointer text-center">
+                     <MdWork className="text-purple-500 text-[6rem] ml-8"/>
+                     <p className="hover:text-purple-700 cursor-pointer">Merchent</p>
                    </div>
-                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                      <FaHouseChimney className="text-purple-500 text-[8rem]"/>
-                      <p>Educational Institutions</p>
+                   <div className="shadow shadow-slate-400 p-4 cursor-pointer text-center">
+                      <FaHouseChimney className="text-purple-500 text-[6rem] ml-8"/>
+                      <p className="hover:text-purple-700 cursor-pointer">Educational Institutions</p>
                    </div>
-                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                      <GiFamilyHouse className="text-purple-500 text-[8rem]"/>
-                      <p>Enterprise</p>
+                   <div className="shadow shadow-slate-400 p-4 cursor-pointer text-center">
+                      <GiFamilyHouse className="text-purple-500 text-[6rem] ml-8"/>
+                      <p className="hover:text-purple-700 cursor-pointer">Enterprise</p>
                    </div>
-                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                       <FaPrayingHands className="text-purple-500 text-[8rem]"/>
-                       <p>Microfinance</p>
+                   <div className="shadow shadow-slate-400 p-4 cursor-pointer text-center">
+                       <FaPrayingHands className="text-purple-500 text-[6rem] ml-8"/>
+                       <p className="hover:text-purple-700 cursor-pointer">Microfinance</p>
                    </div>
-                   <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
-                      <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
+                   <div className="shadow shadow-slate-400 p-4 cursor-pointer text-center">
+                      <IoIosArrowForward className="text-purple-500 text-[7.5rem] ml-8"/>
                    </div>
 
             </div>
-            <div className="absolute right-8">
-               <img src={bg2} alt="" className="w-[600px]"/>
+            <div className="absolute right-0">
+               <img src={bg2} alt="" className="w-[30rem] h-[30rem]"/>
             </div>
         </div>
      </div>
