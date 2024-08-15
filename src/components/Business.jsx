@@ -37,9 +37,9 @@ const Business = () => {
                        <p>Microfinance</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                      <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
                    </div>
 
-                  <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
             </div>
             <div className="absolute right-8">
                <img src={bg2} alt="" className="w-[600px]"/>
