@@ -25,6 +25,8 @@ const Business = () => {
                      <p>Merchent</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
+                      <FaHouseChimney className="text-purple-500 text-[8rem]"/>
+                      <p>Educational Institutions</p>
                    </div>
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
                    </div>
@@ -33,7 +35,6 @@ const Business = () => {
                    <div className="shadow shadow-slate-400 p-6 cursor-pointer text-center">
                    </div>
 
-                  <FaHouseChimney className="text-purple-500 text-[8rem]"/>
                   <GiFamilyHouse className="text-purple-500 text-[8rem]"/>
                   <FaPrayingHands className="text-purple-500 text-[8rem]"/>
                   <IoIosArrowForward className="text-purple-500 text-[8rem]"/>
