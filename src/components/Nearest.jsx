@@ -3,7 +3,7 @@ import { nearest } from "../constants/data"
 const Nearest = () => {
   return (
     <>
-    <section className="px-16">
+    <section className="px-16 mt-8">
        <h1 className='text-center text-3xl md:text-5xl font-semibold'>
         Nearest
         <span className="text-purple-700"> eWallet </span>
