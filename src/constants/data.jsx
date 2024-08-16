@@ -132,7 +132,7 @@ export const nearest = [
    },
    {
       heading: "Customer Care Points",
-      text: "List of Customer Care Centers",
+      text: "List of Customer Care Centers all over Bangladesh",
       img: near3,
    },
    {
