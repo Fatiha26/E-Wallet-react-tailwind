@@ -136,8 +136,8 @@ export const nearest = [
       img: near3,
    },
    {
-      heading: "Agent Points",
-      text: "List of active agent points all over Bangladesh",
+      heading: "bKash Merchants",
+      text: "List of Merchants that accepts Payment across the country",
       img: near4,
    },
 ]
