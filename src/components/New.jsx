@@ -11,7 +11,7 @@ const New = () => {
       <div className="grid grid-cols-3 gap-8 mt-12 ">
         {
             news.map((item,index)=>(
-              <div key={index} className="rounded-xl shadow shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
+              <div key={index} className="rounded-xl shadow-md shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
                  <img src={item.img} alt="news img" />
                  <div className="px-2">
                  <h3 className="mt-4 text-lg font-bold hover:text-purple-700">{item.heading}</h3>
@@ -25,8 +25,7 @@ const New = () => {
             ))
         }
       </div>
-      <button className='py-3 px-6 rounded text-md border  border-white font-bold shadow-md 
-      shadow-gray-500 text-purple-700 hover:text-black mt-8'>
+      <button className='py-3 px-6 rounded text-md border  border-purple-700 font-bold text-purple-700 hover:text-black mt-8 ml-[30rem]'>
           Learn More
       </button>
 
