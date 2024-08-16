@@ -12,12 +12,13 @@ const Nearest = () => {
       <div className="grid grid-cols-2 gap-8 mt-12 ">
         {
             nearest.map((item,index)=>(
-              <div key={index} className="rounded-xl shadow-md shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
-                 <div className="px-2">
-                 <h3 className="mt-4 text-lg font-bold text-purple-700">{item.heading}</h3>
+              <div key={index} className="text-center rounded-xl shadow-md 
+              shadow-slate-400 hover:shadow-slate-600 cursor-pointer">
+                 <div className="">
+                 <h3 className="mt-4 text-xl font-bold text-purple-700">{item.heading}</h3>
                  <p>{item.text}</p>
                  </div>
-                 <img src={item.img} alt="news img" className="w-1/2" />
+                 <img src={item.img} alt="news img" className="w-1/2 m-auto" />
               </div>
             ))
         }
