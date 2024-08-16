@@ -14,7 +14,7 @@ const Nearest = () => {
             nearest.map((item,index)=>(
               <div key={index} className="rounded-xl shadow-md shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
                  <div className="px-2">
-                 <h3 className="mt-4 text-lg font-bold hover:text-purple-700">{item.heading}</h3>
+                 <h3 className="mt-4 text-lg font-bold text-purple-700">{item.heading}</h3>
                  <p>{item.text}</p>
                  </div>
                  <img src={item.img} alt="news img" className="w-1/2" />
