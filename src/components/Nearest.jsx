@@ -8,6 +8,7 @@ const Nearest = () => {
         <span className="text-purple-700"> eWallet </span>
          Touchpoints
       </h1>
+      
     </section>
 
     </>

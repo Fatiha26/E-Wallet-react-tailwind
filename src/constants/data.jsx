@@ -111,3 +111,7 @@ export const news = [
       read: "10mins read",
    },
 ]
+
+export const nearest = [
+   {},
+]
