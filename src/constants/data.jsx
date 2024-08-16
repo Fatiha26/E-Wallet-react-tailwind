@@ -131,8 +131,8 @@ export const nearest = [
       img: near2,
    },
    {
-      heading: "Agent Points",
-      text: "List of active agent points all over Bangladesh",
+      heading: "Customer Care Points",
+      text: "List of Customer Care Centers",
       img: near3,
    },
    {
