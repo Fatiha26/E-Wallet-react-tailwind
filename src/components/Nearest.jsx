@@ -13,7 +13,7 @@ const Nearest = () => {
         {
             nearest.map((item,index)=>(
               <div key={index} className="text-center rounded-xl shadow-md 
-              shadow-slate-400 hover:shadow-slate-600 cursor-pointer">
+              shadow-slate-400 hover:shadow-slate-600 cursor-pointer w-full">
                  <div className="">
                  <h3 className="mt-4 text-xl font-bold text-purple-700">{item.heading}</h3>
                  <p>{item.text}</p>
