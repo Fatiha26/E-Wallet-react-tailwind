@@ -14,7 +14,7 @@ const New = () => {
               <div key={index} className="rounded-xl shadow shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
                  <img src={item.img} alt="news img" />
                  <div className="px-2">
-                 <h3 className="mt-4 text-xl font-bold hover:text-purple-700">{item.heading}</h3>
+                 <h3 className="mt-4 text-lg font-bold hover:text-purple-700">{item.heading}</h3>
                  <div className="flex items-center gap-2 mb-4 mt-4 text-slate-500">
                    <p>{item.text}</p>
                    <p>{item.line}</p>
