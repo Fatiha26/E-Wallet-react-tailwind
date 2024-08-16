@@ -9,13 +9,13 @@ const Nearest = () => {
         <span className="text-purple-700"> eWallet </span>
          Touchpoints
       </h1>
-      <div className="grid grid-cols-3 gap-8 mt-12 ">
+      <div className="grid grid-cols-2 gap-8 mt-12 ">
         {
             nearest.map((item,index)=>(
               <div key={index} className="rounded-xl shadow-md shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
                  <div className="px-2">
                  <h3 className="mt-4 text-lg font-bold hover:text-purple-700">{item.heading}</h3>
-                 <p></p>
+                 <p>{item.text}</p>
                  </div>
                  <img src={item.img} alt="news img" />
               </div>
