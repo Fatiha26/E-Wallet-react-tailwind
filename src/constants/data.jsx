@@ -16,6 +16,12 @@ import new1 from '../assets/image/new1.jpg'
 import new2 from '../assets/image/new2.jpg'
 import new3 from '../assets/image/new3.jpg'
 
+import near1 from '../assets/image/near1.png'
+import near2 from '../assets/image/near2.png'
+import near3 from '../assets/image/near3.png'
+
+
+
 
 export const platforms = [
     {
@@ -113,5 +119,9 @@ export const news = [
 ]
 
 export const nearest = [
-   {},
+   {
+      heading: "Agent Points",
+      text: "List of active agent points all over Bangladesh",
+      img: new3,
+   },
 ]
