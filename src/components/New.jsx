@@ -11,7 +11,7 @@ const New = () => {
       <div className="grid grid-cols-3 gap-8 mt-12 ">
         {
             news.map((item,index)=>(
-              <div key={index} className="shadow shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
+              <div key={index} className="rounded-xl shadow shadow-slate-400 hover:shadow-slate-600 cursor-pointer mr-2">
                  <img src={item.img} alt="news img" />
                  <div className="px-2">
                  <h3 className="mt-4 text-xl font-bold hover:text-purple-700">{item.heading}</h3>
