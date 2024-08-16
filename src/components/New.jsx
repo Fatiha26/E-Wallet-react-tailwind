@@ -25,7 +25,8 @@ const New = () => {
             ))
         }
       </div>
-      <button className='py-3 px-6 rounded text-md border  border-purple-700 font-bold text-purple-700 hover:text-black mt-8 ml-[30rem]'>
+      <button className='py-3 px-6 rounded text-md border  border-purple-700 font-bold 
+      text-purple-700 hover:text-black mt-8 ml-[30rem]'>
           Learn More
       </button>
 
