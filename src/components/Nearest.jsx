@@ -17,7 +17,7 @@ const Nearest = () => {
                  <h3 className="mt-4 text-lg font-bold hover:text-purple-700">{item.heading}</h3>
                  <p>{item.text}</p>
                  </div>
-                 <img src={item.img} alt="news img" />
+                 <img src={item.img} alt="news img" className="w-1/2" />
               </div>
             ))
         }
