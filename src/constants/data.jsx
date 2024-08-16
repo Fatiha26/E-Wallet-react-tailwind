@@ -19,6 +19,7 @@ import new3 from '../assets/image/new3.jpg'
 import near1 from '../assets/image/near1.png'
 import near2 from '../assets/image/near2.png'
 import near3 from '../assets/image/near3.png'
+import near4 from '../assets/image/near4.png'
 
 
 
@@ -122,6 +123,21 @@ export const nearest = [
    {
       heading: "Agent Points",
       text: "List of active agent points all over Bangladesh",
-      img: new3,
+      img: near1,
+   },
+   {
+      heading: "ATM Cash Out Points",
+      text: "List of Partner Banks' ATM booths to Cash Out",
+      img: near2,
+   },
+   {
+      heading: "Agent Points",
+      text: "List of active agent points all over Bangladesh",
+      img: near3,
+   },
+   {
+      heading: "Agent Points",
+      text: "List of active agent points all over Bangladesh",
+      img: near4,
    },
 ]
