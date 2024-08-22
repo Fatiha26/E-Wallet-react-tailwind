@@ -1,8 +1,11 @@
-import React from 'react'
 
 const Secure = () => {
   return (
-    <div>Secure</div>
+    <>
+        <section>
+            
+        </section>
+    </>
   )
 }
 
